@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "b8ee2ae0-9692-4683-ba45-3dfe366a5cc3",
+		"name": "poc-kkpfg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11389578"
+	},
+	"item": [
+		{
+			"name": "marketing-promos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/marketing-promos",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"marketing-promos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/products",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/users/10002",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"users",
+						"10002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/shoping-cart/10002",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"shoping-cart",
+						"10002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/products/:productId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/products/123",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"products",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/inventory/:productId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/inventory/123",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"inventory",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "xml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/xml",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"xml"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:4000",
+			"type": "string"
+		}
+	]
+}
