@@ -1,0 +1,26 @@
+[
+    {
+      "id": "123",
+      "name": "Tony's Coffee Upland Blend Medium Roast",
+      "price": "11.49",
+      "description": "Package: 12 oz. Inspiration: \"I just realized: I'm not a morning person. I'm a coffee person.\" - Anonymous",
+      "imageUrl": "/images/tonys-coffee-upland-blend-medium-roast.png",
+      "averageRating": 4.6
+    },
+    {
+      "id": "234",
+      "name": "Puroast Bourbon Pecan Torte",
+      "price": "10.49",
+      "description": "Package: 12 oz. Inspiration: \"I have measured out my life with coffee spoons.\" - T.S. Eliot",
+      "imageUrl": "/images/puroast-bourbon-pecan-torte.png",
+      "averageRating": 4.3
+    },
+    {
+      "id": "345",
+      "name": "Peace Coffee Morning Glory",
+      "price": "11.99",
+      "description": "Package: 20 oz. Inspiration: \"Friends bring happiness into your life. Best friends bring coffee.\" - Anonymous",
+      "imageUrl": "/images/peace-coffee-morning-glory.png",
+      "averageRating": 4.7
+    }
+  ]

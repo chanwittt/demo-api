@@ -1,0 +1,29 @@
+[
+    {
+        "cartId": "cart-10001",
+        "uid": 10001,
+        "items": [
+            {
+                "productName": "Tony's Coffee Upland Blend Medium Roast",
+                "productId": "123",
+                "amount": 1
+            },
+            {
+                "productName": "Puroast Bourbon Pecan Torte",
+                "productId": "234",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "cartId": "cart-10002",
+        "uid": 10002,
+        "items": [
+            {
+                "productName": "Peace Coffee Morning Glory",
+                "productId": "345",
+                "amount": 1
+            }
+        ]
+    }
+]
