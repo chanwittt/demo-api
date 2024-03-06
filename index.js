@@ -24,6 +24,10 @@ const users = JSON.parse(rawUsers)
 const cart = JSON.parse(rawCart)
 const inventory = JSON.parse(rawInventory)
 
+app.get('/', (req, res) => {
+    res.send("demo days")
+})
+
 app.get('/products', (req, res) => {
     res.send(products)
 })
