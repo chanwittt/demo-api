@@ -81,6 +81,15 @@ app.get('/xml', (req, res) => {
     res.send(xml);
 })
 
+app.get('/headers', (req, res) => {
+    const headers = req.headers
+    res.send(headers);
+})
+app.post('/body', (req, res) => {
+    const body = req.body
+    res.send(body);
+})
+
 app.listen(port, () => {
     console.log(`Listening at http://localhost:${port}`);
 });
