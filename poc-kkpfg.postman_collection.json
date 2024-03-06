@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "b8ee2ae0-9692-4683-ba45-3dfe366a5cc3",
+		"name": "poc-kkpfg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "11389578"
+	},
+	"item": [
+		{
+			"name": "marketing-promos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/marketing-promos"
+			},
+			"response": []
+		},
+		{
+			"name": "products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/products"
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/users/10002"
+			},
+			"response": []
+		},
+		{
+			"name": "cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/shoping-cart/10002"
+			},
+			"response": []
+		},
+		{
+			"name": "/products/:productId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/products/123"
+			},
+			"response": []
+		},
+		{
+			"name": "/inventory/:productId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/inventory/123"
+			},
+			"response": []
+		},
+		{
+			"name": "xml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/xml"
+			},
+			"response": []
+		},
+		{
+			"name": "headers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/headers"
+			},
+			"response": []
+		},
+		{
+			"name": "body",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"admin\", \"email\":\"abc@myapp.demo\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/body"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://api.example.com",
+			"type": "string"
+		}
+	]
+}
