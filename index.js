@@ -25,7 +25,7 @@ const cart = JSON.parse(rawCart)
 const inventory = JSON.parse(rawInventory)
 
 app.get('/', (req, res) => {
-    res.send("demo days")
+    res.send("server_hostname")
 })
 
 app.get('/products', (req, res) => {
